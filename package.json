@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"select2",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "select2",
+    "description": "api documentation for [select2 (v4.0.3)](https://select2.github.io) [![npm package](https://img.shields.io/npm/v/npmdoc-select2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-select2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-select2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-select2)",
     "devDependencies": {
-        "select2": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "select2": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-select2",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-select2",
+    "keywords": [
+        "documentation",
+        "select2"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_select2.js",
+    "name": "npmdoc-select2",
+    "nameAlias": "npmdoc_select2",
+    "nameOriginal": "npmdoc-select2",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-select2"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
