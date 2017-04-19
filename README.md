@@ -1,9 +1,14 @@
-# api documentation for  [select2 (v4.0.3)](https://select2.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-select2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-select2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-select2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-select2)
+# npmdoc-select2
+
+#### api documentation for  [select2 (v4.0.3)](https://select2.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-select2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-select2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-select2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-select2)
+
 #### Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
 
-[![NPM](https://nodei.co/npm/select2.png?downloads=true)](https://www.npmjs.com/package/select2)
+[![NPM](https://nodei.co/npm/select2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/select2)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-select2/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-select2_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-select2/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-select2/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-select2/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-select2/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-select2/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-select2/build/screenCapture.npmPackageListing.svg)
 
@@ -82,17 +87,14 @@
     "main": "dist/js/select2.js",
     "maintainers": [
         {
-            "name": "chrisjbaik",
-            "email": "chrisjbaik@gmail.com"
+            "name": "chrisjbaik"
         },
         {
-            "name": "kevin-brown",
-            "email": "kevin+npm@kevin-brown.com"
+            "name": "kevin-brown"
         }
     ],
     "name": "select2",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/select2/select2.git"
@@ -101,16 +103,6 @@
     "version": "4.0.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module select2](#apidoc.module.select2)
-
-
-
-# <a name="apidoc.module.select2"></a>[module select2](#apidoc.module.select2)
 
 
 
