@@ -1,6 +1,6 @@
 # npmdoc-select2
 
-#### api documentation for  [select2 (v4.0.3)](https://select2.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-select2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-select2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-select2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-select2)
+#### basic api documentation for  [select2 (v4.0.3)](https://select2.github.io)  [![npm package](https://img.shields.io/npm/v/npmdoc-select2.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-select2) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-select2.svg)](https://travis-ci.org/npmdoc/node-npmdoc-select2)
 
 #### Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
 
@@ -100,7 +100,8 @@
         "url": "git://github.com/select2/select2.git"
     },
     "scripts": {},
-    "version": "4.0.3"
+    "version": "4.0.3",
+    "bin": {}
 }
 ```
 
